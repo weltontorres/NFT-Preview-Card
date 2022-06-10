@@ -7,7 +7,7 @@ html {
 }
 
 body {
-	/* background-color: hsl(217, 54%, 11%); */
+	background-color: hsl(217, 54%, 11%);
 	height: 100%;
 	min-height: 100%;
 	display: flex;
@@ -18,7 +18,7 @@ body {
 
 .image-equilibrium {
 	width: 250px ;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding: 25px;
 }
 
@@ -26,24 +26,99 @@ body {
 	display: flex;
 	width: 300px ;
 	color: white;
-	
 	justify-content: center;
-	align-items: center;
+	/* align-items: center; */
 	align-content: center;
 	flex-direction: column;
 	background-color: hsl(216, 50%, 16%);
 	border-radius: 5px;
 }
 
+
 h3 {
-	text-align: left;
+	margin-top: 0;
+	margin-left: 25px;
+}
+
+p {
+	margin-left: 25px;
+	font-size: 15px;
+	font-weight: 100;
+	margin-top: 0;
+	color: hsl(215, 51%, 70%);
+}
+
+
+.ethview {
+	display: flex;
+	margin-left: 25px;
+	justify-content: space-between;
+	margin-right: 25px;
+	font-size: 15px;
+	font-weight: 100;
+	margin-top: 10px;
+	color: hsl(215, 51%, 70%);
+}
+
+i {
+margin-right: 4px;
+}
+
+.ethview span:first-child {
+	color: #20E9F1;
+	font-weight: 400;
+}
+
+hr {
+	
+	background-color: hsl(215, 51%, 70%);
+	width: 250px;
+	height: 1px;
+	border: none;
+	opacity: 0.5;
+	margin-top:20px ;
+}
+
+.image-avatar {
+	width: 30px;
+	border: solid white;
+	border-radius: 20px;
+	border-color: #B3B3B3;
+	margin-right: 10px;
+	
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 10px;
+	color: hsl(215, 51%, 70%);
+	font-weight: 100;
+
+}
+
+.footer span {
+	color: white;
+	margin-left: 3px;
+}
+	
+.attribution {
+	margin-top: 15px;
+	color: white;
+	text-align: center;
+	font-size: 10px;
+}
+
+a {
+	color: hsl(215, 51%, 70%);
 }
 
 
 
 
 
-.image-avatar {
-	width: 50px ;
-	height: 50px ;
 	
